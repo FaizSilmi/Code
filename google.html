@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Clone</title>
+    <style>
+      .google-text{
+        text-align: center;
+      }
+      .search{
+        text-align: center;
+      }
+      .teks{
+        font-family: Arial;
+        height: 35px;
+        width: 500px;
+        border-radius: 20px;
+        border-style: none;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+      }
+      .teks::placeholder{
+        position: absolute;
+        left: 15px;
+      }
+      .google-search{
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 30px;
+      }
+      .gs{
+        font-family: Arial;
+        font-size: 15px;
+        border-style: none;
+        width: 150px;
+        height: 50px;
+        margin-right: 5px;
+      }
+      .lucky:hover,
+      .gs:hover{
+        cursor: pointer;
+      }
+      .lucky{
+        font-family: Arial;
+        font-size: 15px;
+        border-style: none;
+        width: 150px;
+        height: 50px;
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="google-text">
+      <img class="google" src="thumbnail/ggl.png">
+    </div>
+    <div class="search">
+      <input class="teks" type="text" placeholder="Search Google or type a URL">
+    </div>
+    <div class="google-search">
+      <button class="gs">
+        Google Search
+      </button>
+      <button class="lucky">
+        I'm Feeling Lucky
+      </button>
+    </div>
+  </body>
+</html>
