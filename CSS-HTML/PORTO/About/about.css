@@ -1,0 +1,142 @@
+p{
+  font-family: Roboto, Arial;
+  margin: 0px;
+}
+body{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+  top: 10px;
+  left: 0px;
+  right: 0px;
+}
+.box-header{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0;
+  max-width: 525px;
+  height: 55px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.home,
+.about,
+.skill,
+.experience,
+.kontak{
+  color: rgb(0, 0, 73);;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.2s;
+  font-size: 15px;
+}
+.home:hover,
+.about:hover,
+.skill:hover,
+.experience:hover,
+.kontak:hover{
+  color: rgba(0, 0, 73, 0.555);
+  font-size: 20px;
+  text-decoration: none;
+}
+.all{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 100px;
+  max-width: 1000px;
+  border-radius: 50px;
+}
+.first-all{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: 0.4s;
+  height: 300px;
+}
+.first-all:hover{
+  height: 470px;
+}
+.first{
+  height: 300px;
+}
+.pp{
+  width: 100%;
+}
+.first-exp{
+  background-color: rgb(116, 174, 255);
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  column-gap: 200px;
+}
+.bas{
+  padding-bottom: 20px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+.second-all{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: 0.4s;
+  height: 300px;
+  background-color: lightcoral;
+}
+.second-all:hover{
+  height: 500px;
+}
+.second{
+  height: 500px;
+}
+.second-exp{
+  height: 500px;
+}
+.third-all{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: 0.4s;
+  height: 300px;
+  background-color: lightcyan;
+}
+.third-all:hover{
+  height: 500px;
+}
+.third{
+  height: 300px;
+}
+.third-exp{
+  height: 300px;
+}
+.fourth-all{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: 0.4s;
+  height: 300px;
+  background-color: lightpink;
+}
+.fourth-all:hover{
+  height: 500px;
+}
+.fourth{
+  height: 300px;
+}
+.fourth-exp{
+  height: 300px;
+}
