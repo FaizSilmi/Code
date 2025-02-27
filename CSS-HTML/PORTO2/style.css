@@ -5,49 +5,60 @@ p {
   font-family: Jua, Arial;
 }
 body{
-  height: 100vh;
-  width: 100%;
+  height: 1080px;
+  width: 1920px;
   background-size: cover;
 }
 .all{
-  padding-top: 100px;
-  padding-left: 100px;
+  padding: 5%;
+}
+.left{
+  width: 60%;
+  height: 100%;
 }
 .gambar{
-  width: 120px;
-  height: 120px;
+  width: 230px;
+  height: 230px;
+  position: static;
 }
 .head{
   display: flex;
 }
 .profile{
-  width: 100px;
-  height: 100px;
-  border-radius: 75px;
+  width: 80%;
+  height: 80%;
+  border-radius: 100px;
   border-style: solid;
   border-color: white;
   border-width: 5px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
-.teks{
-  width: 100px;
-  height: 100px;
-  margin-right: 30px;
-}
+
 .nama{
-  font-size: 30px;
+  font-size: 96px;
   margin-top: 15px;
   margin-bottom: 0px;
   color: white;
+  line-height: 120px;
 }
 .bio{
+  margin: 0;
   color: white;
+  width: 160px;
+  height: 38px;
+  font-family: 'Jua';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
 }
+
 .desc{
   width: 500px;
   position: relative;
   margin-top: -310px;
   align-items: center;
+  margin-left: 13%;
 }
 .hello{
   color: white;
@@ -72,40 +83,91 @@ body{
 }
 .rectangle{
   width: 600px;
+  margin-left: 13%;
 }
 .descbox{
   width: 500px;
 }
 .gbutton{
   display: flex;
+  margin-left: 50px;
   align-items: center;
-  justify-content: center;
-
+}
+.getintouch{
+  width: 200px;
+  height: 50px;
+  background: #6187C3;
+  border-radius: 30px;
+  border-style: none;
+  font-family: 'Manjari';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
 }
 .link1{
   display: flex;
   margin-bottom: 20px;
+  margin-left: 13%;
 }
 .link2{
   display: flex;
+  margin-left: 13%;
 }
 .ltr{
   width: 500px;
   margin-bottom:20px;
+  margin-left: 13%;
+  border-radius: 15px;
+  border-style: none;
+  height: 35px;
+  background-color: #6187C3;
+  color: white;
+  font-family: 'Jua';
+  font-size: 20px;
 }
 .igbutton{
   width:225px;
+  height: 35px;
+  border-radius: 15px;
+  border-style: none;
   margin-right: 25px;
+  background-color: #6187C3;
+  color: white;
+  font-family: 'Jua';
+  font-size: 20px;
 }
 .xbutton{
   width: 225px;
+  height: 35px;
+  border-radius: 15px;
+  border-style: none;
   margin-left: 25px;
+  background-color: #6187C3;
+  color: white;
+  font-family: 'Jua';
+  font-size: 20px;
 }
 .ytbutton{
   width: 225px;
+  height: 35px;
+  border-radius: 15px;
+  border-style: none;
   margin-right: 25px;
+  background-color: #6187C3;
+  color: white;
+  font-family: 'Jua';
+  font-size: 20px;
 }
 .libutton{
   width: 225px;
+  height: 35px;
+  border-radius: 15px;
+  border-style: none;
   margin-left: 25px;
+  background-color: #6187C3;
+  color: white;
+  font-family: 'Jua';
+  font-size: 20px;
 }
