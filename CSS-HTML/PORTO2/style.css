@@ -5,11 +5,13 @@ p {
   font-family: Jua, Arial;
 }
 body{
-  height: 1080px;
-  width: 1920px;
+  height: 100vh;
+  width: 100%;
   background-size: cover;
 }
 .all{
+  height: 100%;
+  width: 100%;
   padding: 5%;
 }
 .left{
