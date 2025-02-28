@@ -12,11 +12,26 @@ body{
 }
 .all{
   margin: 0px;
+  display: flex;
 }
 .left{
-  width: 100%;
-  max-width: 1300px;
+  width: 960px;
   margin-left: 150px;
+}
+.right{
+  width: 960px;
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  margin-top: 80px;
+  height: 82px;
+  width: 641px;
+  margin-left: 570px;
 }
 .gambar{
   width: 230px;
