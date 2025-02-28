@@ -5,18 +5,18 @@ p {
   font-family: Jua, Arial;
 }
 body{
-  height: 100vh;
-  width: 100%;
+  height: 1080px;
+  width: 1920px;
   background-size: cover;
+  margin: 0px;
 }
 .all{
-  height: 100%;
-  width: 100%;
-  padding: 5%;
+  margin: 0px;
 }
 .left{
-  width: 60%;
-  height: 100%;
+  width: 100%;
+  max-width: 1300px;
+  margin-left: 150px;
 }
 .gambar{
   width: 230px;
@@ -25,20 +25,25 @@ body{
 }
 .head{
   display: flex;
+  width: 752px;
+  height: 230px;
+  padding-top: 80px;
 }
 .profile{
-  width: 80%;
-  height: 80%;
-  border-radius: 100px;
+  width: 230px;
+  height: 230px;
+  border-radius: 200px;
   border-style: solid;
   border-color: white;
   border-width: 5px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
-
+.teks{
+  margin-left: 50px;
+}
 .nama{
   font-size: 96px;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 0px;
   color: white;
   line-height: 120px;
@@ -46,60 +51,69 @@ body{
 .bio{
   margin: 0;
   color: white;
-  width: 160px;
+  width: 200px;
   height: 38px;
   font-family: 'Jua';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 38px;
 }
 
 .desc{
-  width: 500px;
+  width: 641px;
   position: relative;
-  margin-top: -310px;
+  margin-top: -450px;
   align-items: center;
   margin-left: 13%;
+  margin-left: 40px;
 }
 .hello{
   color: white;
   font-family: Just Another Hand;
-  font-size: 50px;
+  font-size: 80px;
   margin: 0px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  padding-left: 350px;
-  padding-right: 150px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 320px;
+  padding-right: 180px;
   float: right;
 }
 .fulldesc{
   color: white;
   align-items: center;
-  padding-bottom: 90px;
-  margin-top: 0px;
-  margin-left: 50px;
+  width: 430px;
+  margin-top: 55px;
+  margin-left: 110px;
   margin-right: 50px;
-  font-size: 30px;
+  padding-bottom: 45px;
+  font-size: 40px;
   font-family: Just Another Hand;
 }
 .rectangle{
-  width: 600px;
-  margin-left: 13%;
+  width: 641px;
+  margin-left: 40px;
 }
 .descbox{
-  width: 500px;
+  margin-top: 25px;
+  padding-bottom: 20px;
+  width: 641px;
+  margin-left: 40px;
+}
+.sirkel{
+  margin-top: -1000px;
 }
 .gbutton{
   display: flex;
-  margin-left: 50px;
+  margin-left: 80px;
   align-items: center;
 }
 .getintouch{
   width: 200px;
-  height: 50px;
+  height: 55px;
   background: #6187C3;
-  border-radius: 30px;
+  border-radius: 100px;
   border-style: none;
   font-family: 'Manjari';
   font-style: normal;
@@ -110,66 +124,55 @@ body{
 }
 .link1{
   display: flex;
-  margin-bottom: 20px;
-  margin-left: 13%;
+  margin-bottom: 45px;
+  margin-left: 80px;
+  width: 641px;
+  justify-content: space-between;
 }
 .link2{
   display: flex;
-  margin-left: 13%;
+  margin-left: 80px;
+  width: 641px;
+  justify-content: space-between;
 }
 .ltr{
-  width: 500px;
-  margin-bottom:20px;
-  margin-left: 13%;
-  border-radius: 15px;
+  width:641px;
+  margin-bottom:45px;
+  margin-left: 80px;
+  border-radius: 25px;
   border-style: none;
-  height: 35px;
-  background-color: #6187C3;
-  color: white;
+  height: 60px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   font-family: 'Jua';
   font-size: 20px;
+  transition: 0.3s;
 }
-.igbutton{
-  width:225px;
-  height: 35px;
-  border-radius: 15px;
-  border-style: none;
-  margin-right: 25px;
-  background-color: #6187C3;
+.ltr:hover{
+  background-color: gray;
   color: white;
-  font-family: 'Jua';
-  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
 }
-.xbutton{
-  width: 225px;
-  height: 35px;
-  border-radius: 15px;
+.igbutton,
+.xbutton,
+.ytbutton,
+.git{
+  width: 295px;
+  height: 70px;
+  border-radius: 30px;
   border-style: none;
-  margin-left: 25px;
   background-color: #6187C3;
   color: white;
   font-family: 'Jua';
   font-size: 20px;
+  transition: 0.3s;
 }
-.ytbutton{
-  width: 225px;
-  height: 35px;
-  border-radius: 15px;
-  border-style: none;
-  margin-right: 25px;
-  background-color: #6187C3;
-  color: white;
-  font-family: 'Jua';
-  font-size: 20px;
-}
-.libutton{
-  width: 225px;
-  height: 35px;
-  border-radius: 15px;
-  border-style: none;
-  margin-left: 25px;
-  background-color: #6187C3;
-  color: white;
-  font-family: 'Jua';
-  font-size: 20px;
+.igbutton:hover,
+.xbutton:hover,
+.ytbutton:hover,
+.git:hover{
+  background-color: #365586;
+  cursor: pointer;
+  border-radius: 20px;
 }
