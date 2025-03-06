@@ -1,0 +1,98 @@
+.bio{
+    width: 960px;
+    background-color: chocolate;
+    border-style: solid;
+    border-width: 1px;
+}
+.hobi{
+    width: 960px;
+    background-color: chocolate;
+    border-style: solid;
+    border-width: 1px;
+}
+.galeri{
+    width: 960px;
+    background-color: chocolate;
+    border-style: solid;
+    border-width: 1px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+p{
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+.navigation{
+    background-color: black;
+}
+.nav{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+.home,
+.hobby,
+.gallery{
+    color: white;
+    transition: 0.3s;
+}
+.home:hover,
+.hobby:hover,
+.gallery:hover{
+    color: gray;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 400px;
+}
+.contenthobby{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.photo1:hover,
+.photo2:hover,
+.photo3:hover{
+    height: 310px;
+    cursor: pointer;
+}
+.table{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.footer{
+    background-color: blanchedalmond;
+    height: 50px;
+    border-style: solid;
+    border-bottom: 1px;
+    border-width: 1px;
+}
+.grid{
+    margin-top: 50px;
+    height: 450px;
+    width: 950px;
+}
+.pic1,
+.pic2,
+.pic3{
+    height: 200px;
+    transition: 0.3s;
+}
+.pic1:hover,
+.pic2:hover,
+.pic3:hover{
+    height: 210px;
+    cursor: pointer;
+}
+.gtext{
+    font-family: 'Roboto';
+    margin-top: 50px;
+}
+.since{
+    font-family: 'times new romance';
+}
