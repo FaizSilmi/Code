@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jua&family=Just+Another+Hand&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body onload="start()" onunload="stop()">
+        <center>
+            <div class="bio">
+                <div class="header">
+                    <div class="waktu">
+                        <div class="hari">
+                            <script type="text/javascript">
+                                var d = new Date()
+                                var weekday = new
+                                Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+                                var monthName = new
+                                Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+                                document.write(weekday[d.getDay()] + " ")
+                                document.write(d.getDate() + ", ")
+                                document.write(monthName[d.getMonth()] + " ")
+                                document.write(d.getFullYear())
+                            </script>
+                        </div>
+                        <div class="jam">
+                            <script type="text/javascript">
+                                var timer = null
+                                function stop()
+                                {
+                                    clearTimeout(timer)
+                                }
+                                function start()
+                                {
+                                    var time = new Date()
+                                    var hours = time.getHours()
+                                    var minutes = time.getMinutes()
+                                    minutes=((minutes < 10) ? "0" : "") + minutes
+                                    var seconds = time.getSeconds()
+                                    seconds=((seconds < 10) ? "0" : "") + seconds
+                                    var clock = hours + ":" + minutes + ":" + seconds
+                                    document.forms[0].display.value = clock
+                                    timer = setTimeout("start()",1000)
+                                }
+                            </script>
+                            <form>
+                                <input class="time" name="display" size="20">
+                            </form>
+                        </div>
+                    </div>
+                    <h1 class="pala">My Biodata</h1>
+                </div>
+                <div class="navigation">
+                    <div class="nav">
+                        <p><a class="home" href="biodata.html">Home</a></p>
+                        <p><a class="hobby" href="hobby.html">Hobby</a></p>
+                        <p><a class="gallery" href="gallery.html">Gallery</a></p>
+                    </div>
+                </div>
+                <div class="content">
+                    <center><img class="pp" border="3" src="https://i.pinimg.com/736x/29/9d/ea/299dea5d6b478e67796f9af50ceaffb8.jpg"></center>
+                    <table class="table" border="1">
+                        <tr>
+                            <td>Nama</td>
+                            <td>Aulia Safitri</td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td>24343002</td>
+                        </tr>
+                        <tr>
+                            <td>Program Studi</td>
+                            <td>Informatika</td>
+                        </tr>
+                        <tr>
+                            <td>Tempat, Tanggal Lahir</td>
+                            <Td>Bengkulu, 07 September 2006</Td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>Jln. Lintas Bengkulu Padang</td>
+                        </tr>
+                        <tr>
+                            <td>Fakultas</td>
+                            <td>Teknik</td>
+                        </tr>
+                        <tr>
+                            <td>Kampus</td>
+                            <td>Universitas Negeri Padang</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer">
+                    <p class="since">&#169;2025, Aulia Safitri</p>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
